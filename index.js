@@ -41,7 +41,7 @@
 
 // Arithmetic Operators
 
-let students = 30;
+//let students = 30;
 //students = students + 1; //addition 
 //students = students-1; // substaction
 //students = students * 2;// multiplication
@@ -56,5 +56,18 @@ let students = 30;
 //students /= 3;// division 
 //students **= 2;// exponentiation
 //students %= 4;// modulus operator
-console.log(students);
+//console.log(students);
+
+/* 
+    operator precendence 
+    1. Parentheses
+    2. Exponentiation
+    3. Multiplication and Division and Modulus
+    4. Addition and Subtraction
+
+
+*/
+
+let results = 12 % 5 + 8 / 2;
+console.log(results);
 
