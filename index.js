@@ -79,10 +79,41 @@
 //username = window.prompt("Whats your username?");
 //console.log(username);
 // HTML Text Box
-let username;
-document.getElementById("mySubmit").onclick= function(){
-    username = document.getElementById("username").value;
-    document.getElementById("myH1").textContent= `Welcome ${username}`;
-    console.log(username);
-    
+//let username;
+//document.getElementById("mySubmit").onclick= function(){
+  //  username = document.getElementById("username").value;
+    //document.getElementById("myH1").textContent= `Welcome ${username}`;
+    //console.log(username);
+
+//Constant Function
+
+//const pi = 3.1415;
+//let radius;
+//let circumference;
+
+//document.getElementById("mySubmit").onclick= function(){
+  //  radius = document.getElementById("myText").value;
+    //radius= Number(radius);
+    //circumference = 2 * pi * radius;
+    //document.getElementById("result").textContent = `The circumference is ${circumference + "cm"}`;
+//}
+//Counter Program
+const decreaseBtn= document.getElementById("decreaseBtn");
+const resetBtn = document.getElementById("resetBtn");
+const increaseBtn = document.getElementById("increaseBtn");
+const countlabel= document.getElementById("countlabel");
+let count = 0;
+
+
+increaseBtn.onclick= function(){
+    count ++;
+    countlabel.textContent = count;
+}
+decreaseBtn.onclick= function(){
+    count --;
+    countlabel.textContent = count;
+}
+resetBtn.onclick= function(){
+    count = 0;
+    countlabel.textContent = count;
 }
