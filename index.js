@@ -82,5 +82,7 @@
 let username;
 document.getElementById("mySubmit").onclick= function(){
     username = document.getElementById("username").value;
+    document.getElementById("myH1").textContent= `Welcome ${username}`;
     console.log(username);
+    
 }
