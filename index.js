@@ -68,6 +68,19 @@
 
 */
 
-let results = 12 % 5 + 8 / 2;
-console.log(results);
-
+//let results = 12 % 5 + 8 / 2;
+//console.log(results);
+/** How to accept user inputs
+ * 1. Easy way= window prompt
+ * 2. Professional way= HTML textbox
+*/
+//Window prompt
+//let username;
+//username = window.prompt("Whats your username?");
+//console.log(username);
+// HTML Text Box
+let username;
+document.getElementById("mySubmit").onclick= function(){
+    username = document.getElementById("username").value;
+    console.log(username);
+}
