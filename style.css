@@ -18,5 +18,9 @@
     transition: background-color 0.25s;
 }
 .buttons:hover{
-    background-color: hsl(0, 2%, 63%);
+    background-color: hsl(258, 70%, 56%);
+}
+#roll{
+    border-radius: 10px;
+
 }
