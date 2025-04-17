@@ -98,7 +98,7 @@
     //document.getElementById("result").textContent = `The circumference is ${circumference + "cm"}`;
 //}
 //Counter Program
-const decreaseBtn= document.getElementById("decreaseBtn");
+const decreaseBtn= document.getElementById("decreaseBtn");// Assigning the button to a variable
 const resetBtn = document.getElementById("resetBtn");
 const increaseBtn = document.getElementById("increaseBtn");
 const countlabel= document.getElementById("countlabel");

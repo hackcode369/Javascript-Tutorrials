@@ -1,3 +1,9 @@
+#myH1{
+    background-color: yellowgreen;
+    color: black;
+    padding-inline: 5x 25px;
+    text-align: center;
+}
 #countlabel{
     display: block;
     text-align: center;
